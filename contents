@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="13240" systemVersion="" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Historico" representedClassName="Historico" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historico" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="HistoricoC1" representedClassName="HistoricoC1" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historicoc1" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="HistoricoC2" representedClassName="HistoricoC2" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historicoc2" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="HistoricoC3" representedClassName="HistoricoC3" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historicoc3" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="HistoricoC4" representedClassName="HistoricoC4" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historicoc4" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="HistoricoC5" representedClassName="HistoricoC5" syncable="YES" codeGenerationType="class">
+        <attribute name="hace2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="hace5" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ultima" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="historicoc5" inverseEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="age" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="pass" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sex" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="historico" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Historico" inverseName="user" inverseEntity="Historico" syncable="YES"/>
+        <relationship name="historicoc1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricoC1" inverseName="user" inverseEntity="HistoricoC1" syncable="YES"/>
+        <relationship name="historicoc2" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricoC2" inverseName="user" inverseEntity="HistoricoC2" syncable="YES"/>
+        <relationship name="historicoc3" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricoC3" inverseName="user" inverseEntity="HistoricoC3" syncable="YES"/>
+        <relationship name="historicoc4" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricoC4" inverseName="user" inverseEntity="HistoricoC4" syncable="YES"/>
+        <relationship name="historicoc5" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="HistoricoC5" inverseName="user" inverseEntity="HistoricoC5" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Historico" positionX="-225" positionY="-180" width="128" height="135"/>
+        <element name="HistoricoC1" positionX="-225" positionY="-342" width="128" height="135"/>
+        <element name="HistoricoC2" positionX="-153" positionY="144" width="128" height="135"/>
+        <element name="HistoricoC3" positionX="61" positionY="-225" width="128" height="135"/>
+        <element name="HistoricoC4" positionX="268" positionY="-81" width="128" height="133"/>
+        <element name="HistoricoC5" positionX="286" positionY="81" width="128" height="135"/>
+        <element name="User" positionX="-414" positionY="-72" width="128" height="193"/>
+    </elements>
+</model>
